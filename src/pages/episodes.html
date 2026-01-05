@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Episodios</title>
-</head>
-<body>
-    <div class="container">    
-        <h1>Episodios</h1>
-        <div id="cardList"></div>
-        <script type="module" src="../js/episodes.js"></script>    
-    </div>
-</body>
+  </head>
+
+  <body class="app-shell">
+    <main class="container">
+      <h1 class="app-title">Episodios</h1>
+      <p class="subtle">
+        Marca episodios como favoritos y navega al detalle de personajes.
+      </p>
+
+      <div id="status" class="status"></div>
+      <div id="cardList" class="grid-cards"></div>
+    </main>
+
+    <script type="module" src="../js/pages/episodes.js"></script>
+  </body>
 </html>
