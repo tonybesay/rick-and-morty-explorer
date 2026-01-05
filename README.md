@@ -131,12 +131,12 @@ npm run build
 ```
 
 ## 🧪 Aprendizajes clave
-  • Consumo de APIs REST con fetch
-	•	Manejo de estado sin frameworks
-	•	Arquitectura modular en JavaScript Vanilla
-	•	Uso profesional de Tailwind CSS
-	•	Persistencia con localStorage
-	•	Flujo de trabajo con Git y commits semánticos
+-	Consumo de APIs REST con fetch
+-	Manejo de estado sin frameworks
+-	Arquitectura modular en JavaScript Vanilla
+-	Uso profesional de Tailwind CSS
+-	Persistencia con localStorage
+-	Flujo de trabajo con Git y commits semánticos
 
 ⸻
 
