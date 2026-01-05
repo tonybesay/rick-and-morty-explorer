@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty Explorer</title>
+    <script type="module" crossorigin src="/rick-and-morty-explorer/assets/index-BbLo-VIq.js"></script>
+    <link rel="stylesheet" crossorigin href="/rick-and-morty-explorer/assets/index-c_x058ad.css">
+  </head>
+
+  <body class="app-shell">
+    <header class="w-full border-b border-slate-800 bg-slate-950/60 backdrop-blur">
+      <div class="container flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div>
+          <h1 class="app-title">Rick and Morty Explorer</h1>
+          <p class="subtle">
+            Explora personajes, filtra por nombre/estado/especie y guarda tus favoritos.
+          </p>
+        </div>
+        <div id="headerActions" class="nav"></div>
+      </div>
+    </header>
+  
+  <main class="container">
+      <section class="filters">
+        <div class="lg:col-span-4 flex items-center justify-between">
+          <h2 class="text-xl font-bold">Filtros</h2>
+          <p class="text-sm text-slate-400">Usa “Cargar más” para ampliar resultados</p>
+        </div>
+
+        <div class="filter_container">
+          <label class="label" for="filterName">Nombre</label>
+          <input id="filterName" class="input" type="text" placeholder="Rick" />
+        </div>
+
+        <div class="filter_container">
+          <label class="label" for="filterStatus">Estado</label>
+          <select id="filterStatus" class="select"></select>
+        </div>
+
+        <div class="filter_container">
+          <label class="label" for="filterSpecies">Especie</label>
+          <select id="filterSpecies" class="select"></select>
+        </div>
+      </section>
+
+      <div id="status" class="status"></div>
+      <div id="divCharacters" class="grid-cards"></div>
+      <div id="loadMoreContainer" class="mt-6"></div>
+    </main>
+
+  </body>
+</html>
