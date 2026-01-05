@@ -146,5 +146,5 @@ npm run build
 ## 👨‍💻 Autor
 
 Antonio Mendoza Hernández
-Full Stack Developer en formación
+Full Stack Developer
 	•	GitHub: https://github.com/tonybesay
