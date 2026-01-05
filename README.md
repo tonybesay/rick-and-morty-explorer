@@ -52,8 +52,9 @@ La aplicación consume la **Rick and Morty API pública** y está diseñada como
 
 ## 📂 Arquitectura del proyecto
 
+```text
 El proyecto está estructurado siguiendo una separación clara de responsabilidades:
-src/
+c/
 ├── js/
 │   ├── core/        # Lógica base (api, router, config, state)
 │   ├── pages/       # Controllers por página
@@ -63,6 +64,8 @@ src/
 ├── pages/           # HTML de vistas secundarias
 │
 ├── style.css        # Tailwind + estilos base
+
+```
 
 ### Principios aplicados
 - Separación lógica / render
