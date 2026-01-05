@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rick-and-morty-explorer</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rick and Morty Explorer</h1>
+    </header>
+    <main class="container">
+
+      <div id="filters" class="filters">
+        <h3>Filtros</h3>
+        <div id="inputName_container" class="filter_container">
+          <label for="filterName">Nombre</label>
+          <input id="filterName" name="filterName" type="text" placeholder="Filtrar por nombre" autocomplete="off">
+        </div>
+        
+        <div id="inputStatus_container" class="filter_container">
+          <label for="filterStatus">Estado</label>
+          <select id="filterStatus" name="filterStatus"></select>
+        </div>
+        
+        <div id="inputSpecies_container" class="filter_container">
+          <label for="filterSpecies">Especies</label>
+          <select id="filterSpecies" name="filterSpecies"></select>
+        </div>
+        
+      </div>
+      
+      <div id="status" class="status" aria-live="polite"></div>
+      
+      <div id="divCharacters"></div>
+      
+      <div id="loadMoreContainer"></div>
+    </main>
+      
+      <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
